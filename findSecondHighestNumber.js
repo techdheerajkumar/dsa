@@ -1,19 +1,20 @@
-let arr = [2,5,1,8,4];
-let firstHighestNumber = 0;
-let secondHighestNumber = 0;
+function findSecondLargest(arr) {
+    if (!arr.length) return;
+    if (arr.length < 2) return null;
+    let firstLargestNumber = -Infinity;
+    let secondLargestNumber = Infinity;
 
-for(let i = 0; i < arr.length; i++){
-    if(firstHighestNumber < arr[i]){
-        secondHighestNumber = firstHighestNumber
-        firstHighestNumber = arr[i]
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > firstLargestNumber ) {
+            secondLargestNumber = firstLargestNumber
+            firstLargestNumber = arr[i];
+        } else if (arr[i] > secondLargestNumber && arr[i] !== firstLargestNumber) {
+            secondLargestNumber = arr[i]
+        }
     }
+    return secondLargestNumber;
 }
 
-// 0 < 2 = 2
-// 2 < 5 = 5
-// 5 < 1 = 5 : 0 > 5 
-// 5 < 8 = 8
-// 4 < 8 = 8
-console.log(firstHighestNumber, secondHighestNumber)
 
-
+let arr = [1,5,2,3,5];
+console.log(findSecondLargest(arr))
