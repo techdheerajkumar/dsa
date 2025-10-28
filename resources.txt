@@ -1,0 +1,20 @@
+Resources
+
+- GeeksForGeeks: Most asked questions sheet
+- Leetcode: Blind 75 & Leetcode 150
+- Fraz: Fraz's DSA sheet
+- Striver: Striver A2Z DSA sheet
+
+System Design - LLD & HLD
+
+Type of Projects: 
+Staydayz | ReactJS, Java, Springboot, Mongo DB, AWS
+Taskify | ReactJS, Java, Springboot, Hibernate, MySQL, RESTful APIs, Docker, AWS
+
+
+Portals to apply:
+LinkedIn
+Naukri
+Career Portal
+
+Tip: Update CV based on JD
